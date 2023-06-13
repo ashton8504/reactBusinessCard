@@ -1,0 +1,158 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+/* App Styles to keep it in a column for every component */
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5px;
+    margin-top: 300px; /* Adjust the value as needed */
+    width: 317px;
+    height: 317px;
+}
+
+
+/* Body Styles for the entire page Yeet */
+body {
+  background-color: #23252C;
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+/* Header Styles */
+
+.photoOfMe {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Main Content Styles */
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1A1B21;
+  flex-grow: 1;
+  padding: 10px;
+  margin-top: -20px; /* Adjusted to remove the space between MainContent and the photo */
+  width: 317px;
+}
+
+
+.mainContentName {
+    margin-top: 20px; /* Adjusted to reduce the margin */
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center; /* Center align the name */
+}
+
+.jobTitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-top: -12px;
+    text-align: center; /* Center align the job title */
+}
+
+.myWebsite {
+    width: 250px;
+    height: 399px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #F5F5F5;
+    padding-left: 72px;
+}
+
+.myWebsite:hover {
+    color: #61DAFB;
+}
+
+.emailBtn {
+    width: 247px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.emailBtn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section {
+    text-align: left; /* Align content within the section to the left */
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.aboutMe, .myInterest{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-top: 20px;
+}
+
+.aboutMeParagraph, .interestParagraph{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #DCDCDC;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Footer styles */
+
+.footer {
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 20px
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+    margin: 0 10px; 
+    width: 30px;
+    margin-bottom: 20px
+}
+
