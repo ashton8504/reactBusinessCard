@@ -30,7 +30,7 @@ The goal of the project was to create a static page representing a business card
 - Proficiency in writing JSX syntax to define component templates.
 - Creating and utilizing custom components for building modular UIs.
 - Applying CSS styles to React components to enhance the visual presentation.
-- 
+
 Markdown file:
 
 - Created a static business card page using React
