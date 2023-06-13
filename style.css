@@ -156,3 +156,13 @@ body {
     margin-bottom: 20px
 }
 
+@media (max-width: 768px) {
+    .app,
+    .photoOfMe,
+    .content-container,
+    .myWebsite,
+    .emailBtn,
+    .footer {
+        width: 90%;
+    }
+}
