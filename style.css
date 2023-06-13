@@ -156,7 +156,8 @@ body {
     margin-bottom: 20px
 }
 
-@media (max-width: 768px) {
+/* Media Queries */
+@media (max-width: 480px) {
     .app,
     .photoOfMe,
     .content-container,
@@ -164,5 +165,17 @@ body {
     .emailBtn,
     .footer {
         width: 90%;
+    }
+
+    .mainContentName {
+        font-size: 22px;
+    }
+
+    .jobTitle {
+        font-size: 16px;
+    }
+
+    .myWebsite {
+        font-size: 14px;
     }
 }
